@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Portfolio website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/logo-2.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@600&display=swap"rel="stylesheet">
+    
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="flex items-center justify-between">
+                <div class="left flex items-center">
+                    <div class="branding">
+                        <img src="img/logo.svg">
+                        <h3>Coder</h3>
+                    </div>
+                    <div>
+                        <a href="#">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#skill">Skills</a>
+                        <a href="#projects">Projects</a>
+
+
+                    </div>
+                </div>
+                <div class="right"></div>
+                <a href="#contact"><button class="btn btn-primary">Contact</button></a>
+            </nav>
+        </div>
+        <div class="hero flex items-center justify-between">
+            <div class="left flex-1 justify-center">
+                <img src="img/developer.png" alt="">
+            </div>
+            <div class="right flex-1 ">
+                <h6>Saima Bibi</h6>
+                <h1>I'm a <span>Web Developer</span></h1>
+                <p>Welcome to my portfolio, where I bring digital ideas
+                    to life through code <br>and creativity.Explore my work
+                    , where every project is a unique story of<br> design and functionality.</p>
+                <div><a href="img/portfolio-resume.png" download><button class="btn btn-secondary">Download Resume</button></a></div>
+            </div>
+
+        </div>
+    </header>
+
+    <section  id = "about" class="about">
+        <div class="container flex items-center">
+            <div class="flex-1">
+                <img src="img/developer1.png" alt="">
+            </div>
+            <div class="flex-1">
+                <h1>About <span>Me</span></h1>
+                <h3>Hello! I'm Saima Bibi</h3>
+                <p> I am excited to introduce myself as a budding web developer<br> with a
+                    passion for crafting visually appealing and functional<br> websites. I
+                    thrive on turning innovative concepts into reality,<br> and I'm on a
+                    continuous journey of learning and honing my <br>skills. My goal is to
+                    make the web a more engaging and user-<br>friendly place. Join me as I
+                    explore the dynamic world of web<br>  development
+                    and share my enthusiasm for creating digital<br>  solutions
+                    that leave a lasting impression.
+                </p>
+                <div class="social">
+                    <a href="#"> <img src="img/linkedin.svg"></a>
+                    <a href="#"> <img src="img/facebook.svg"></a>
+                    <a href="#"> <img src="img/twitter.svg"></a>
+                    <a href="#"> <img src="img/instagram.svg"></a>
+                </div>
+            </div>
+         
+        </div>
+        
+    </section>
+
+    <section id="skill" class="skills">
+     <h1><span>My</span> Skills</h1>   
+     <div class="myskills">
+     
+     <li><h3>HTML</h3>
+     <span class="bar"><span class="html"></span></span>
+     </li>
+     <li><h3>CSS</h3>
+     <span class="bar"><span class="css"></span></span>
+     </li>
+     <li><h3>Javascript</h3>
+     <span class="bar"><span class="javascript"></span></span>
+    </li>
+    <li><h3>UIUX</h3>
+        <span class="bar"><span class="uiux"></span></span>
+       </li>
+    <li><h3>Graphic design </h3>
+        <span class="bar"><span class="GD"></span></span>
+    </li>
+    <li><h3>App development</h3>
+        <span class="bar"><span class="appdev"></span></span>
+       </li>   
+     </div>
+    </section>
+
+    <section class="Projects" id="projects">
+    <h1><span>My</span> Projects</h1>   
+    <div class="head project-filter">
+     <li class="list">All</li>   
+    <li class="list ">Web</li>
+    <li class="list" >App</li>
+    <li class="list" >UIUX</li>
+    <li class="list" >Graphic Design</li>
+   </div>
+   <div class="grid-3-column grid " >
+   <div class="image-overlay  portfolio-image p-btn p-not-active"  >
+   <img src="img/japansite.JPG" >
+   <div class="overlay"> 
+   <a href="http://127.0.0.1:56069/html/japanSite.html#social-life" class="common-heading">Project 1</a>
+
+   </div>
+    </div>
+
+    <div class="image-overlay portfolio-image  p-btn p-not-active" >
+        <img src="img/calculator.JPG" >
+        <div class="overlay"> 
+        <a href="file:///E:/WEB/webcode/calculator/index.html"  class="common-heading">Project 2</a>
+     
+        </div>
+         </div>
+
+         <div class="image-overlay portfolio-image  p-btn p-not-active" >
+            <img src="img/todo.JPG" >
+            <div class="overlay"> 
+            <a href="file:///E:/WEB/webcode/to-do-list%20app/index.html"  class="common-heading">Project 3</a>
+         
+            </div>
+             </div>
+   
+   </div>
+
+   
+    </section>
+    <section class="contact" id="contact">
+        <h1>Contact<span> Me</span></h1>     
+        <div class="container">
+        <form>
+            <input type = "text" placeholder="Name">
+            <input type =  "text" placeholder="Email">
+            <input type="" placeholder="Phone no.">
+            <textarea  rows="10" cols="19"  placeholder="Message"></textarea>
+           
+        </form>   
+         <button>Submit</button>
+        </div>
+    </section>
+    
+<footer>@copyright 2023 - designed by Saima Bibi</footer>
+</body>
+
+</html>
