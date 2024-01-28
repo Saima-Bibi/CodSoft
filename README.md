@@ -1,6 +1,7 @@
 # CodSoft
-CodSoft internship all tasks (Level 1)
-1 calculator
-2 to do list
-3 portfolio
-
+<h3>CodSoft internship all tasks (Level 1) <h3>
+<ul>
+<li> calculator </li>
+<li> to do list </li>
+<li> portfolio  </li>
+<ul>
